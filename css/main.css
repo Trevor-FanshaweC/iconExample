@@ -1,0 +1,24 @@
+body { font-size: 16px; }
+
+.hidden { display: none; }
+
+.main-headline {
+  text-align: center;
+  margin: 20px 0 30px;
+  font-size: 2.5rem;
+}
+
+#raster-vector h3 { margin: 20px; text-align: center; }
+
+#image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#image-container img {
+  width: 30%;
+  min-width: 155px;
+  max-width: 375px;
+  align-self: center;
+}
